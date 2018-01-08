@@ -1,0 +1,55 @@
+{
+  "okay": true,
+  "message": "",
+  "result": {
+    "nodes": [
+      {
+        "id": "电影A",
+        "betweenness": 2,
+        "closeness": 3
+      },
+      {
+        "id": "电影B",
+        "betweenness": 2,
+        "closeness": 3
+      },
+      {
+        "id": "电影C",
+        "betweenness": 2,
+        "closeness": 3
+      },
+      {
+        "id": "电影D",
+        "betweenness": 2,
+        "closeness": 3
+      },
+      {
+        "id": "电影E",
+        "betweenness": 2,
+        "closeness": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "电影C",
+        "target": "电影B",
+        "value": 1
+      },
+      {
+        "source": "电影A",
+        "target": "电影D",
+        "value": 3
+      },
+      {
+        "source": "电影A",
+        "target": "电影E",
+        "value": 3
+      },
+      {
+        "source": "电影B",
+        "target": "电影E",
+        "value": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "okay": true,
+  "message": "",
+  "result": {
+    "nodes": [
+      {
+        "id": "电影A",
+        "status": 0
+      },
+      {
+        "id": "电影B",
+        "status": 1
+      },
+      {
+        "id": "电影C",
+        "status": 2
+      },
+      {
+        "id": "电影D",
+        "status": 2
+      },
+      {
+        "id": "电影E",
+        "status": 0
+      }
+    ],
+    "links": [
+      {
+        "source": "电影C",
+        "target": "电影B",
+        "value": 1,
+        "path": true
+      },
+      {
+        "source": "电影B",
+        "target": "电影D",
+        "value": 2,
+        "path": true
+      },
+      {
+        "source": "电影A",
+        "target": "电影E",
+        "value": 3,
+        "path": false
+      }
+    ],
+    "display": "最短路径是电影C->电影B->电影D",
+    "distance": 3
+  }
+}
